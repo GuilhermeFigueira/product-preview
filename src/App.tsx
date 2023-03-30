@@ -23,7 +23,7 @@ function App() {
 					</div>
 					<button className="bg-cyan rounded-lg py-4 text-white flex items-center justify-center gap-2 font-bold hover:bg-[#1a4031]">
 						<img src="/icon-cart.svg" alt="Cart icon" />
-						<h3 className="">Add to Cart</h3>
+						Add to Cart
 					</button>
 				</div>
 			</div>
