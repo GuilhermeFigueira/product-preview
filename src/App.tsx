@@ -1,6 +1,6 @@
 function App() {
 	return (
-		<div className="h-screen w-screen flex bg-cream">
+		<div className="h-screen w-screen flex flex-col bg-cream">
 			<div className="flex flex-col sm:grid sm:grid-cols-2 m-auto bg-white rounded-xl max-w-screen-sm sm:max-w-screen-md">
 				<div className=" rounded-t-xl sm:rounded-l-xl sm:rounded-tr-none [background-image:url('/image-product-mobile.jpg')] h-96 bg-center sm:h-auto bg-cover bg-no-repeat sm:[background-image:url('/image-product-desktop.jpg')]"></div>
 				<div className="flex flex-col gap-4 p-8 px-5 sm:gap-8 sm:px-10">
@@ -26,6 +26,24 @@ function App() {
 						<h3 className="">Add to Cart</h3>
 					</button>
 				</div>
+			</div>
+			<div className="text-center">
+				Challenge by{" "}
+				<a
+					href="https://www.frontendmentor.io?ref=challenge"
+					target="_blank"
+				>
+					Frontend Mentor
+				</a>
+				. Coded by{" "}
+				<a
+					href="https://github.com/guilhermefigueira"
+					target="_blank"
+					className="text-transparent bg-clip-text bg-gradient-to-r from-rose-700 to-sky-700 font-bold hover:text-lg transition-all"
+				>
+					Guilherme Figueira
+				</a>
+				.
 			</div>
 		</div>
 	);
