@@ -2,7 +2,7 @@ function App() {
 	return (
 		<div className="h-screen w-screen flex bg-cream">
 			<div className="flex flex-col sm:grid sm:grid-cols-2 m-auto bg-white rounded-xl max-w-screen-sm sm:max-w-screen-md">
-				<div className=" rounded-t-xl [background-image:url('/image-product-mobile.jpg')] h-96 bg-center sm:h-auto bg-cover bg-no-repeat sm:[background-image:url('/image-product-desktop.jpg')]"></div>
+				<div className=" rounded-t-xl sm:rounded-l-xl sm:rounded-tr-none [background-image:url('/image-product-mobile.jpg')] h-96 bg-center sm:h-auto bg-cover bg-no-repeat sm:[background-image:url('/image-product-desktop.jpg')]"></div>
 				<div className="flex flex-col gap-4 p-8 px-5 sm:gap-8 sm:px-10">
 					<span className="uppercase text-blue-gray">Perfume</span>
 					<h1 className="text-4xl text-blue-dark font-bold font-serif sm:text-5xl">
